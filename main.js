@@ -218,32 +218,32 @@ const chooseContainer = [
 
 
 
-const recent = [
+const recentPost = [
     {
         image: "image/row 1.png",
+        heading: "May 23, 2022",
+        heading1: '<span class="time">5 minutes</span>',
         image2: "image/bx_time-five.svg",
-        heading1: "May 23, 2022",
-        span: "5 minutes",
-        heading3: "My trip to Athens",
+        heading2: "My trip to Athens",
         para: "It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the city, but already..."
     },
 
     {
         image: "image/row 2.png",
+        heading: "May 23, 2022",
+        heading1: '<span class="time">1 minutes</span>',
         image2: "image/bx_time-five.svg",
-        heading1: "Vilnius resorts",
-        heading2: "May 23, 2022",
-        span: "1 minutes",
+        heading2: "Vilnius resorts",
         para: "I haven't seen any resorts in Vilnius, but there are wonderful people and pubs"
     },
 
     {
         image: "image/row 3.png",
+        heading: "May 20, 2022",
+        heading1: '<span class="time">15 minutes</span>',
         image2: "image/bx_time-five.svg",
-        heading1: "Tips for flying on a plane",
-        heading2: "May 20, 2022",
-        span: "15 minutes",
-        para: "If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you"
+        heading2:"Tips for flying on a plane",
+        para: "If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you",
     },
 ];
 
@@ -252,11 +252,13 @@ const renderrecent = recentPost => {
     recentPost.forEach(recentPost => {
     container.innerHTML += `
     <div class="recent">
-                <img src="${recentPost.image}">
-                    <h4>${recentPost.heading2}</h4>
-                    <span>${recentPost.span}</span>
-                    <img src="${recentPost.image2}"
-                <h3>${recentPost.heading3}</h3>
+                <img src="${recentPost.image}" class="row" alt="">
+                <div class="content">
+                    <h4>${recentPost.heading}  </h4>
+                    <h4>${recentPost.heading1} </h4>
+                    <img src="${recentPost.image2}" class="one" alt="">
+                </div>
+                <h3>${recentPost.heading2}</h3>
                 <p>${recentPost.para}</p>
             </div>
     `;
@@ -265,6 +267,8 @@ const renderrecent = recentPost => {
     
     renderrecent(recentPost);
 
+
+
     const specialOffer = [
         {
         image: "image/bed1.png",
@@ -272,8 +276,8 @@ const renderrecent = recentPost => {
         image2: "image/heart.svg",
         heading: "4.8",
         para: "Wilderness Club at Big <br> Cedder",
-        heading2: "28 October - 1 November",
-        heading3: "<span>$2016</span>/6 night",
+        heading1: "28 October - 1 November",
+        heading2: "<span>$2016</span>/6 night",
     },
 
     {
@@ -282,8 +286,8 @@ const renderrecent = recentPost => {
         image2: "image/heart.svg",
         heading: "4.8",
         para: "Wilderness Club at Big <br> Cedder",
-        heading2: "28 October - 1 November",
-        heading3: "<span>$2016</span>/6 night",
+        heading1: "28 October - 1 November",
+        heading2: "<span>$2016</span>/6 night",
     },
 
     {
@@ -292,12 +296,12 @@ const renderrecent = recentPost => {
         image2: "image/heart.svg",
         heading: "4.8",
         para: "Wilderness Club at Big <br> Cedder",
-        heading2: "28 October - 1 November",
-        heading3: "<span>$2016</span>/6 night",
+        heading1: "28 October - 1 November",
+        heading2: "<span>$2016</span>/6 night",
     },
 ];
 
-const renderOffer = specialOffer => {
+const renderspecialOffer = specialOffer => {
     const container = document.getElementById('specialOffer');
     specialOffer.forEach(specialOffer => {
     container.innerHTML += `
@@ -305,13 +309,13 @@ const renderOffer = specialOffer => {
                 <img src="${specialOffer.image}" class="room" alt="">
                 <img src="${specialOffer.image1}" class="star" alt="">
                 <img src="${specialOffer.image2}" class="heart" alt="">
-                <h3 class="rate">4.8</h3>
-                <p>Wilderness Club at Big <br> Cedder</p>
-                <h4>28 October - 1 November</h4>
-                <h5><span>$2016</span>/6 night</h5>
+                <h3>${specialOffer.heading}<h3>
+                <p>${specialOffer.para}</p>
+                <h4>${specialOffer.heading1}</h4>
+                <h5>${specialOffer.heading2}</h5>
             </div>
 
 `;
     });
     }
-    renderOffer(specialOffer);
+    renderspecialOffer(specialOffer);
