@@ -271,33 +271,30 @@ const renderrecent = recentPost => {
 
     const specialOffer = [
         {
-        image: "image/bed1.png",
-        image1: "image/Star 1.svg",
-        image2: "image/heart.svg",
-        heading: "4.8",
-        para: "Wilderness Club at Big <br> Cedder",
-        heading1: "28 October - 1 November",
-        heading2: "<span>$2016</span>/6 night",
+            image:"image/bed1.png",
+            image1: "image/rating.svg", 
+            image2: "image/favorite (1).svg", 
+            para: "Wilderness Club at Big <br> Cedder",
+            heading: "28 October - 1 November",
+            heading1: "<span>$2016</span>/6 night",
     },
 
     {
-        image: "image/bed2.png",
-        image1: "image/Star 1.svg",
-        image2: "image/heart.svg",
-        heading: "4.8",
+        image: "image/bed2.png", 
+        image1: "image/rating.svg", 
+        image2: "image/favorite (1).svg", 
         para: "Wilderness Club at Big <br> Cedder",
-        heading1: "28 October - 1 November",
-        heading2: "<span>$2016</span>/6 night",
+        heading: "28 October - 1 November",
+        heading1: "<span>$2016</span> /6 night",
     },
 
     {
-        image: "image/bed3.png",
-        image1: "image/Star 1.svg",
-        image2: "image/heart.svg",
-        heading: "4.8",
+        image: "image/bed3.png", 
+        image1: "image/rating.svg",
+        image2: "image/favorite (1).svg",
         para: "Wilderness Club at Big <br> Cedder",
-        heading1: "28 October - 1 November",
-        heading2: "<span>$2016</span>/6 night",
+        heading: "28 October - 1 November",
+        heading1: "<span>$2016</span>/6 night",
     },
 ];
 
@@ -309,10 +306,9 @@ const renderspecialOffer = specialOffer => {
                 <img src="${specialOffer.image}" class="room" alt="">
                 <img src="${specialOffer.image1}" class="star" alt="">
                 <img src="${specialOffer.image2}" class="heart" alt="">
-                <h3>${specialOffer.heading}<h3>
                 <p>${specialOffer.para}</p>
-                <h4>${specialOffer.heading1}</h4>
-                <h5>${specialOffer.heading2}</h5>
+                <h4>${specialOffer.heading}</h4>
+                <h5>${specialOffer.heading1}</h5>
             </div>
 
 `;

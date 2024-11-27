@@ -361,16 +361,16 @@ body{
 }
 .heart{
     position: absolute;
-    transform: translateX(970%);
+    transform: translateX(960%);
     margin-top: -200px
 }
 .star{
     position: absolute;
     margin-top: -197px;
-    transform: translateX(400%);
+    transform: translateX(60%);
     padding-right: -35px;
 }
-.rate{
+/* .rate{
     position: relative;
     border: 2px #ffff solid;
     border-radius: 10px;
@@ -379,14 +379,14 @@ body{
     margin-left: 30px;
     box-shadow: 0p 0px 8px rgba(0 0 0 0.16);
     background-color: #FFFFFf;
-}
+} */
 
 .offer p{
     font-family: "Montserrat";
     font-size: 22px;
     font-weight: "Medium";
-    margin-top: 200px;
-    margin-left: -75px;
+    margin-top: -5px;
+    margin-left: 20px;
     color: #262729;
 }
 .offer h4{
@@ -394,8 +394,8 @@ body{
     font-size: 16px;
     font-weight: "Regular";
     color: #262729;
-    margin-top: 65px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 16px;
 }
 span{
     color:#2A90D9;
@@ -408,7 +408,7 @@ span{
     font-family: "Montserrat";
     font-size: 18px;
     font-weight: "Regular";
-    margin-left: 10px;
+    margin-left: 16px;
     margin-top: 10px;
 }
 .offer img{
@@ -724,6 +724,9 @@ hr{
         margin-bottom: -10px;
         margin-left: 25%;
         margin-top: -10px;
+    }
+    #chooseContainer{
+        margin-top: 0%;
     }
 
 }
