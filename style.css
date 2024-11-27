@@ -239,7 +239,7 @@ body{
 }
 .cards{
     background-color: #EBEBEB;
-
+    display: grid;
 }
 .cards h2{
     width: 328px;
@@ -695,8 +695,35 @@ hr{
     position: absolute;
 }
 
-
 .location {
     padding-top: 60px;
     margin-left: 50px;
+}
+
+@media(min-width: 1024px) {
+    .cards{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .cards h2{
+        font-size: 40px;
+        width: 324px;
+        margin-top: 900px;
+        margin-bottom: -500px;
+        margin-left: 35%;
+    }
+    .cards h3{
+        font-size: 20px;
+        margin-bottom: -20px;
+        margin-left: 25%;
+        margin-top: -10px;
+    }
+    .cards p{
+        font-size: 20px;
+        width: 570px;
+        margin-bottom: -10px;
+        margin-left: 25%;
+        margin-top: -10px;
+    }
+
 }

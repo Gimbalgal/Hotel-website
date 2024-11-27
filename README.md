@@ -30,7 +30,7 @@ This is a Hotel website that visitors can fine there rooms of choice. They websi
 
 ## Live Demo
 
-Check out the live demo of the project: [Live Demo Link](https://example.com)
+Check out the live demo of the project: [Live Demo Link](https://hotel-website-xq6n.onrender.com)
 
 
 ## Features
@@ -99,15 +99,7 @@ Explain how to set up and run your project locally. Include prerequisites, insta
 
 ## Usage
 
-Provide instructions on how to use your project. Explain any command-line options, configuration settings, or other user interactions.
-
-## Screenshots
-
-Include screenshots or GIFs of your project in action. This helps users understand what your project looks like and how it functions.
-
-![Screenshot 1](path/to/screenshot1.png)
-
-![Screenshot 2](path/to/screenshot2.png)
+This site is user friendly, anyone who has access to a smart phone and internet can fine there way around it because the various sections are clear and very descriptive.
 
 
 ## License
@@ -142,5 +134,7 @@ Provide information on the authors of the project. Include names, email addresse
 - **Name:** Victoria Augustine Ishabo
 
 - **Email:** victoriaishabo55@gmail.com
-
+- **GitHub:** [Gimbalgal](https://github.com/Gimbalgal/Gimbalgal)
+- **Loom link: ** (https://www.loom.com/share/eaa13bd7812a4ed18370ebc2f9bec470?sid=37f51c36-ab9c-4a26-8f37-82610e5eff44)
+-- **Loom link: ** (cont  https://www.loom.com/share/01d207552b7f4415b79cfec8f59e4251?sid=8a8fd102-4d7a-405c-98cc-d24cbf41bcf9)
 
