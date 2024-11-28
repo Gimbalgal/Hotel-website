@@ -14,6 +14,7 @@ body{
     font-family: "montserrat", Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 
+
 }
 .nav{
     display: flex;
@@ -23,9 +24,9 @@ body{
 .logo{
     font-family: "Montserrat";
     font-style: bold;
-    font-size: 35px;
-    margin-left: 50px;
-    margin-top: -30px;
+    font-size: 40px;
+    margin-left: 51px;
+    margin-top: -40px;
 }
 .logo-end{
     font-family: "Montserrat";
@@ -34,7 +35,7 @@ body{
     margin-left: 50px
 }
 .icon{
-    margin-left: 440px;
+    margin-left: 430px;
     transform: translateY(-100%);
 
 }
@@ -45,14 +46,19 @@ body{
 
 .close-menu{
     margin-right: 450px;
+    transform: translateX(50%);
+    size: 40px;
+    margin-top: 15px;
 }
 
 
 .y{
     color: #2A90D9;
+    margin-left: 10px;
 }
 .lo{
     color: #EE685F;
+    margin-left: -10px;
 }
 /* .Search{
     position: relative;
@@ -149,11 +155,11 @@ body{
 }
 .lang{
     margin-left: 5px;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .money{
     margin-right: 10px;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .deals{
     transform: translateY(25%);
@@ -208,9 +214,13 @@ body{
 }
 .menu-toggle {
     display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    size: 18px;
+
 }
 .nav-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
@@ -361,13 +371,13 @@ body{
 }
 .heart{
     position: absolute;
-    transform: translateX(960%);
+    transform: translateX(950%);
     margin-top: -200px
 }
 .star{
     position: absolute;
     margin-top: -197px;
-    transform: translateX(60%);
+    transform: translateX(25%);
     padding-right: -35px;
 }
 /* .rate{
@@ -401,14 +411,15 @@ span{
     color:#2A90D9;
     font-family: "Montserrat";
     font-weight: "Medium";
-    font-size: 25px;
+    font-size: 30px;
+    margin: 10px;
 }
 .offer h5{
     color: #2A90D9;
     font-family: "Montserrat";
     font-size: 18px;
     font-weight: "Regular";
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 .offer img{
