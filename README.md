@@ -30,7 +30,7 @@ This is a Hotel website that visitors can fine there rooms of choice. They websi
 
 ## Live Demo
 
-Check out the live demo of the project: [Live Demo Link](https://hotel-website-xq6n.onrender.com)
+Check out the live demo of the project: [Live Demo Link](https://hotel-website-nev1.onrender.com)
 
 
 ## Features
