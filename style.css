@@ -646,7 +646,7 @@ hr{
         margin-left: 35%;
     }
     .cards p{
-        width: 800;
+        /* width: 800; */
         font-size: 20px;
         font-weight: "Regular";
         margin-left: 35%;
